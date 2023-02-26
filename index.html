@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roll Dice</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="player-0-panel active">
+          <div class="player-name">player 1</div>
+          <div class="player-score">0</div>
+          <div class="player-current-box">
+            <div class="player-current-label">current</div>
+            <div class="player-current-score">0</div>
+          </div>
+        </div>
+  
+        <div class="center">
+          <button class="btn-new">
+            <ion-icon name="add-circle-outline" class="smoll-icon"></ion-icon>New
+            Game
+          </button>
+          <img src="img/dice-1.png" alt="Dice" class="dice" />
+          <button class="btn-roll">
+            <ion-icon name="repeat-outline" class="smoll-icon"></ion-icon>Roll
+            Dice
+          </button>
+          <button class="btn-hold">
+            <ion-icon name="download-outline" class="smoll-icon"></ion-icon>Hold
+          </button>
+          <input
+            type="number"
+            name=""
+            id=""
+            placeholder="Winner Score"
+            class="final-score"
+          />
+        </div>
+  
+        <div class="player-1-panel">
+          <div class="player-name">player 2</div>
+          <div class="player-score">0</div>
+          <div class="player-current-box">
+            <div class="player-current-label">current</div>
+            <div class="player-current-score">0</div>
+          </div>
+        </div>
+      </div>
+      <script
+        type="module"
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+      ></script>
+      <script
+        nomodule
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+      ></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
